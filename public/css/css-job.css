@@ -1,0 +1,166 @@
+/* Thiết lập kiểu cho thanh điều hướng */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a,
+.column a,
+.text-column a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.text-column a{
+    color: orange;
+}
+
+/* Thiết lập kiểu cho trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Thiết lập kiểu cho khung tìm kiếm */
+.search-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 10px;
+    flex: 2;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+#province-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Kiểu hover cho nút tìm kiếm */
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.column {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #fe0000;  
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.column {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Độ rộng của mỗi cột */
+     /* Đảm bảo padding không tăng kích thước của cột */
+}
+
+.column img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.column h2 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.column ul {
+    list-style: none;
+    padding: 20px;
+    color: #fff;
+}
+
+.column button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Kiểu hover cho nút */
+.column button:hover {
+    background-color: #0056b3;
+}
+
+
+.text-container {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-column{
+    flex: 1;
+    transform: translateX(20%);
+    line-height: 2;
+}
+
+.text-column h2 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.text-column p {
+    color: #fff;
+    margin: 0; /* Loại bỏ margin mặc định của các phần tử p */
+}
+
+.text-column a{
+    color: #fff;
+    top: 20px;
+}
+
+.text-disc{
+    padding-top: 10px;
+}
+
+.map{
+    color: orange;
+}

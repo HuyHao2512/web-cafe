@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+.head4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.picture1{
+    height: 500px;
+    border-radius: 10px;
+}
+.ghichu{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.img_noibat{
+    height: 210px;
+    width: 280px;
+    border-radius: 20px;
+}
+.item_noibat:hover img{
+    transform: translateY(-7px);
+}
